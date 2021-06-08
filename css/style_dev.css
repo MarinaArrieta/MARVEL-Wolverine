@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+	width: 47em;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	text-align: center;
+}
+.wolf{
+	height: 28em;
+    margin-top: 2em;
+}
+
+.card {
+  box-shadow: 6px 6px 12px 5px #111111a8;
+  transition: 0.3s;
+  height: 16em;
+  margin: 70px 70px 20px 70px;
+  border-radius: 5px;
+  background-color: #FBEFBE;
+}
+
+.card p {
+	color: #151515;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 24px;
+	text-align: center;
+	margin: 5px;
+	margin: 0px 5px 20px;
+	text-shadow: 3px 3px #deb887ba;
+}
+
+.card h2 {
+	font-family: 'DM Serif Display', serif;
+	color: #151515;
+	font-size: 30px; 
+	text-align: center;
+	text-shadow: 3px 3px #f2fdf8ab;
+	background-color: #2f4f4fbf;
+    width: 150px;
+    border-radius: 0px 6px 10px 0px;
+}
+
+footer{
+	margin-top: 80px;
+	margin-bottom: 31px;
+	text-align: center;
+	width: 100%;
+}
+.github{
+	margin-left: 1%;
+	color: #151515; 
+	font-size: 44px;
+	text-decoration: none;
+	text-align: center;
+}
+.bottom {
+	margin-left: 4%;
+	color: #151515; 
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.clear-fix{
+	clear:both;
+}
+
+abbr[title] {
+	text-decoration: none;
+}
+
+@media only screen and (min-width:426px){
+	.wolf{
+		height: 18em;
+	}
+	.card {
+		height: 16em;
+	}
+	.bottom {
+		margin-left: 4%;
+		color: #151515; 
+		text-decoration: none;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width:1024px){
+	body{
+		width: 100%;
+	}
+	.card{
+		height: 23em;
+    	width: 18em;
+    	margin: 46px -18px 20px 49px;
+    	display: inline-block;
+
+	}
+	footer{
+		margin-top: 52px;
+	}
+}
+
+@media only screen and (min-width:1025px){
+	body{
+		width: 100%;
+	}
+	main{
+		margin: auto;
+    	width: 1024px;
+	}
+}
