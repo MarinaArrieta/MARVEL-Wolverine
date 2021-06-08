@@ -185,7 +185,7 @@ text-decoration: none;
 	}
 
 }
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:768px){
 	main{
 		width: 100%;
 	    padding: 0;
@@ -246,6 +246,32 @@ text-decoration: none;
 	}
 }
 
+
+
+@media only screen and (min-width:1025px){
+	body{
+		width: 100%;
+	}
+	main{
+		margin: auto;
+    	width: 1024px;
+	}
+	.garras{
+		height: 16em;
+    	margin: auto;
+    	width: 20em;
+	}
+	.garras_izquierda{
+
+	transform: rotate(-12deg);
+	}
+	.garras_derecha{
+
+		transform: rotate(13deg);
+	} 
+}
+
+
 @media only screen and (min-width:1440px)
 {
 	body {
@@ -297,25 +323,3 @@ text-decoration: none;
 }
 
 
-@media only screen and (min-width:1025px){
-	body{
-		width: 100%;
-	}
-	main{
-		margin: auto;
-    	width: 1024px;
-	}
-	.garras{
-		height: 16em;
-    	margin: auto;
-    	width: 20em;
-	}
-	.garras_izquierda{
-
-	transform: rotate(-12deg);
-	}
-	.garras_derecha{
-
-		transform: rotate(13deg);
-	} 
-}
