@@ -4,25 +4,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body{
-	width: 47em;
+	width: 100%;
 	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
 }
 
 header{
-	text-align: center;
+	display: flex;
 }
 .wolf{
-	height: 28em;
-    margin-top: 2em;
+	height: 253px;
+    margin: 18px auto;
 }
 
 .card {
-  box-shadow: 6px 6px 12px 5px #111111a8;
+  box-shadow: 3px 4px 2px 2px #111111a8;
   transition: 0.3s;
-  height: 16em;
-  margin: 70px 70px 20px 70px;
+  height: 488px;
+  margin:40px 38px 20px 38px;
   border-radius: 5px;
   background-color: #FBEFBE;
 }
@@ -30,11 +30,11 @@ header{
 .card p {
 	color: #151515;
 	font-family: 'Patrick Hand SC', cursive;
-	font-size: 24px;
+	font-size: 22px;
 	text-align: center;
 	margin: 5px;
 	margin: 0px 5px 20px;
-	text-shadow: 3px 3px #deb887ba;
+	text-shadow: 2px 2px #deb887ba;
 }
 
 .card h2 {
@@ -49,23 +49,15 @@ header{
 }
 
 footer{
-	margin-top: 80px;
-	margin-bottom: 31px;
+	margin-top: 72px;
+	margin-bottom: 20px;
 	text-align: center;
 	width: 100%;
-}
-.github{
-	margin-left: 1%;
-	color: #151515; 
-	font-size: 44px;
-	text-decoration: none;
-	text-align: center;
 }
 .bottom {
 	margin-left: 4%;
 	color: #151515; 
 	text-decoration: none;
-	font-size: 1.5em;
 }
 
 .clear-fix{
@@ -91,16 +83,22 @@ abbr[title] {
 	}
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:900px){
 	body{
 		width: 100%;
 	}
+	.wolf{
+		height: 249px;
+		margin-bottom: 50px;
+	}
+	main{
+		display: flex;
+		margin: auto;
+	}
 	.card{
-		height: 23em;
-    	width: 18em;
-    	margin: 46px -18px 20px 49px;
-    	display: inline-block;
-
+		height: 414px;
+		width: 269px;
+		margin: auto;
 	}
 	footer{
 		margin-top: 52px;
@@ -114,5 +112,8 @@ abbr[title] {
 	main{
 		margin: auto;
     	width: 1024px;
+	}
+	.bottom {
+    	margin-left: 2%;
 	}
 }
