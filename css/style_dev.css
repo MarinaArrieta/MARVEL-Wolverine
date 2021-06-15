@@ -21,7 +21,7 @@ header{
 .card {
   box-shadow: 3px 4px 2px 2px #111111a8;
   transition: 0.3s;
-  height: 267px;
+  height: 376px;
   margin:40px 38px 20px 38px;
   border-radius: 5px;
   background-color: #FBEFBE;
@@ -70,11 +70,9 @@ abbr[title] {
 }
 
 @media only screen and (min-width:426px){
-	.wolf{
-		height: 18em;
-	}
+	
 	.card {
-		height: 16em;
+		height: 272px;
 	}
 	.bottom {
 		margin-left: 4%;
@@ -97,7 +95,7 @@ abbr[title] {
 		margin: auto;
 	}
 	.card{
-		height: 355px;
+		height: 356px;
 		width: 269px;
 		margin: auto;
 	}
@@ -113,6 +111,9 @@ abbr[title] {
 	main{
 		margin: auto;
     	width: 1024px;
+	}
+	.card{
+		height: 356px;
 	}
 	.bottom {
     	margin-left: 2%;
