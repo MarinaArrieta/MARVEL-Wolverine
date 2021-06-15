@@ -21,7 +21,7 @@ header{
 .card {
   box-shadow: 3px 4px 2px 2px #111111a8;
   transition: 0.3s;
-  height: 488px;
+  height: 267px;
   margin:40px 38px 20px 38px;
   border-radius: 5px;
   background-color: #FBEFBE;
@@ -46,6 +46,7 @@ header{
 	background-color: #2f4f4fbf;
     width: 150px;
     border-radius: 0px 6px 10px 0px;
+    margin-bottom: 10px;
 }
 
 footer{
@@ -96,7 +97,7 @@ abbr[title] {
 		margin: auto;
 	}
 	.card{
-		height: 414px;
+		height: 355px;
 		width: 269px;
 		margin: auto;
 	}
